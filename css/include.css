@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+/*헤더*/
+/*#header{
+    position:fixed;
+    width:100%;
+    background:#fff;
+    z-index:100;
+}
+*/
+
+.hTop{
+    background:#282828;
+    font-size:12px;
+    line-height:40px;
+}
+.hTop a{
+    display:block;
+    color:#fff;
+    padding:0 30px;
+    border-left:1px solid #231F20;
+}
+.engBtn{float:left;}
+.engBtn a{border-right:1px solid #231F20;}
+
+.util{float:right;}
+.util li{
+    float:left;
+}
+.util li img{margin-left:5px;}
+.util li:last-child a{padding-right:0;}
+
+.hBottom{line-height:80px;}
+.hBottom h1{
+    width:150px;
+    height:100%;
+    float:left;
+    background:url(../images/common/logo.jpg) no-repeat center center;
+    text-indent:-9999px;
+    background-size:100%;
+}
+.hBottom h1 a{display:block;}
+
+.gnb{float:right;}
+.gnb li{
+    float:left;
+    padding-left:50px;
+}
+/*푸터*/
+
+#footer{
+    background:#1E1E1E;
+    position:relative;
+    color:#8c8c8c;
+}
+#footer a{
+    color:#8c8c8c;
+}
+.topBtn{
+    width:100px;
+    height:39px;
+    background:url(../images/common/btn_go_top.png)no-repeat;
+    position: absolute;
+    top:-39px;
+    left:50%;
+    margin-left:-51px;
+}
+.topBtn a{
+    display:block;
+    height:100%;
+    padding-left:30px;
+    padding-top:12px;
+    font-size:14px;
+    color:#646464;
+    box-sizing:border-box;
+}
+
+.fTop{
+    background:#282828;
+    padding:50px 0;
+}
+.fTop dl{
+    float:left;
+    margin-right:80px;
+}
+.fTop dt{
+    background:url(../images/common/bar_snb.gif)no-repeat left bottom;
+    color:#646464;
+    font-weight:bold;
+    padding-bottom:15px;
+    margin-bottom:10px;
+    font-size:16px;
+}
+.fTop dd{
+    font-size:12px;
+    font-weight:200;
+    line-height:25px;
+}
+.fTop dd a{color:#505050;}
+
+.fBottom{
+    padding:50px 0;
+    font-size:12px;
+    position:relative;
+}
+.fLogo{
+    width:180px;
+    height:30px;
+    background:url(../images/common/logo_foot.gif)no-repeat;
+    background-size:100%;
+    text-indent:-9999px;
+    margin-bottom:20px;
+}
+.fInfo{overflow:hidden;}
+.fInfo li{
+    float:left;
+    line-height:20px;
+}
+.fInfo li::after{
+    content:"";
+    display:inline-grid;
+    width:1px;
+    height:10px;
+    background:#2d3333;
+    margin:0 5px;
+    margin-top:8px;
+}
+.fInfo li:last-child::after{
+    display:none;
+}
+.fInfo li a{color:#8c8c8c;}
+
+.Copy{margin-top:20px;}
+
+.fSns{
+    position:absolute;
+    right:0;
+    top:50px;
+}
+.fSns li{
+    float:left;
+    margin-left:10px;
+}
+.fSns li a{}
+.fSns li img{
+    width:25px;}
